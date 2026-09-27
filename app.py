@@ -59,7 +59,7 @@ def set_background(image_file):
 set_background("spider-man-5120x2880-21603.jpg")
 
 
-model = joblib.load("models/titanic_best_model.pkl")
+model = joblib.load("models\titanic_best_model.pkl")
 
 st.markdown(
     '<div class="main-title">Titanic Survival Predictor</div>',
